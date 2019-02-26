@@ -22,9 +22,10 @@ html {
   background-color: #34988c;
 }
 
+html,
 body.donate-background {
   background: url(https://images.pexels.com/photos/1409716/pexels-photo-1409716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
-  background-position: 0 0;
+  background-position: -50 0;
   background-repeat: no-repeat;
 }
