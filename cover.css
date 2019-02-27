@@ -44,6 +44,11 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
+body:not(.dark-background) .nav-masthead .nav-link:not(.active) {
+  color: #333;
+  text-shadow: none;
+}
+
 .cover-container {
   max-width: 42em;
 }

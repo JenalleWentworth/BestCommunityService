@@ -15,6 +15,19 @@ html {
   max-width: 700px;
 }
 
+.card-deck-container {
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+}
+
+.card-deck-container .card-deck-row {
+  display: inline-block;
+}
+.card-deck-container .card {
+  min-width: 400px;
+}
+
 .card-deck .card {
   margin-top: 25px;
   min-width: 220px;
@@ -24,8 +37,9 @@ html {
 
 html,
 body.donate-background {
+  background-color: rgb(170,210,222) !important;
   background: url(https://images.pexels.com/photos/1409716/pexels-photo-1409716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  background-position: -50 0;
+  background-size: 100% auto;
+  background-position: 0 0;
   background-repeat: no-repeat;
 }
